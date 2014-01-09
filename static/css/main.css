@@ -12,7 +12,7 @@ body{background:#eee;-webkit-background-size:cover !important;-moz-background-si
 a{color:#555;-webkit-transition:all 0.1s linear;-moz-transition:all 0.1s linear;-o-transition:all 0.1s linear;-ms-transition:all 0.1s linear;transition:all 0.1s linear;}
 a:hover{color:#333 !important}
 strong{font-weight:bold}
-#contents{background:rgba(255,255,255,0.7);margin:30px auto;padding:30px;text-align:center;max-width:900px;-webkit-box-shadow:0 10px 40px rgba(0,0,0,0.1);box-shadow:0 10px 40px rgba(0,0,0,0.1)}
+#contents{background:rgba(255,255,255,0.7);margin:30px auto;padding:30px 30px 10px 30px;text-align:center;max-width:900px;-webkit-box-shadow:0 10px 40px rgba(0,0,0,0.1);box-shadow:0 10px 40px rgba(0,0,0,0.1);-webkit-border-radius:5px;border-radius:5px}
 body.tumblrized #contents{background:rgba(255,255,255,0.9);-webkit-box-shadow:0 10px 40px rgba(0,0,0,0.5);box-shadow:0 10px 40px rgba(0,0,0,0.5)}
 #argument{font-size:24px;font-weight:bold;margin:0 0 30px 0;min-height:80px;text-align:left;}
 #argument.loading{color:#999;font-weight:normal}
@@ -24,8 +24,8 @@ body.tumblrized #contents{background:rgba(255,255,255,0.9);-webkit-box-shadow:0 
 .controls{margin:20px 0;display:block;}
 .controls label{cursor:pointer}
 .controls button{background:-webkit-linear-gradient(top, #fff, #eee);background:-moz-linear-gradient(top, #fff, #eee);background:-o-linear-gradient(top, #fff, #eee);background:-ms-linear-gradient(top, #fff, #eee);background:linear-gradient(to bottom, #fff, #eee);border:1px solid;border-color:#ddd #ccc #ccc #ddd;-webkit-border-radius:5px;border-radius:5px;cursor:pointer;font:16px/1.5 Roboto Slab,sans-serif;outline:none;padding:15px 50px;margin:0 10px;-webkit-transition:all 0.1s linear;-moz-transition:all 0.1s linear;-o-transition:all 0.1s linear;-ms-transition:all 0.1s linear;transition:all 0.1s linear;}
+.controls button:hover{background:-webkit-linear-gradient(top, #f7f7f7, #e6e6e6);background:-moz-linear-gradient(top, #f7f7f7, #e6e6e6);background:-o-linear-gradient(top, #f7f7f7, #e6e6e6);background:-ms-linear-gradient(top, #f7f7f7, #e6e6e6);background:linear-gradient(to bottom, #f7f7f7, #e6e6e6);opacity:1 !important;-ms-filter:none;filter:none}
 .controls button:active{background:-webkit-linear-gradient(top, #ddd, #eee);background:-moz-linear-gradient(top, #ddd, #eee);background:-o-linear-gradient(top, #ddd, #eee);background:-ms-linear-gradient(top, #ddd, #eee);background:linear-gradient(to bottom, #ddd, #eee);border-color:#aaa #ccc #ccc #aaa}
-.controls button:hover{background:-webkit-linear-gradient(top, #eee, #ddd);background:-moz-linear-gradient(top, #eee, #ddd);background:-o-linear-gradient(top, #eee, #ddd);background:-ms-linear-gradient(top, #eee, #ddd);background:linear-gradient(to bottom, #eee, #ddd);opacity:1 !important;-ms-filter:none;filter:none}
 .controls button.tumblrize-grammar{padding:10px 30px;opacity:.4;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";filter:alpha(opacity=40)}
 .controls input[type=number]{font:16px/1.5 Roboto Slab,sans-serif;width:2em;padding:5px;margin-right:10px;border:1px solid #ccc;-webkit-border-radius:5px;border-radius:5px}
 #footer{padding:10px 0 0 0;text-align:center;}
