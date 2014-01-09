@@ -8,11 +8,12 @@ a img{border:none}
 article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,main{margin:0;padding:0;border:0;outline:0;display:block}
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
 audio:not([controls]),[hidden]{display:none}
-body{background:#eee;color:#333;font:14px/1.5 Roboto Slab,sans-serif;text-shadow:0 1px 0 rgba(255,255,255,0.5)}
+body{background:#eee;-webkit-background-size:cover !important;-moz-background-size:cover !important;background-size:cover !important;color:#333;font:14px/1.5 Roboto Slab,sans-serif;text-shadow:0 1px 0 rgba(255,255,255,0.5)}
 a{color:#555;-webkit-transition:all 0.1s linear;-moz-transition:all 0.1s linear;-o-transition:all 0.1s linear;-ms-transition:all 0.1s linear;transition:all 0.1s linear;}
 a:hover{color:#333 !important}
-#contents{background:rgba(255,255,255,0.5);margin:20px;padding:20px;text-align:center}
-#argument{font-size:24px;font-weight:bold;margin:30px 0;}
+#contents{background:rgba(255,255,255,0.7);margin:30px auto;padding:30px;text-align:center;max-width:900px;-webkit-box-shadow:0 10px 40px rgba(0,0,0,0.1);box-shadow:0 10px 40px rgba(0,0,0,0.1)}
+body.tumblrized #contents{background:rgba(255,255,255,0.9);-webkit-box-shadow:0 10px 40px rgba(0,0,0,0.5);box-shadow:0 10px 40px rgba(0,0,0,0.5)}
+#argument{font-size:24px;font-weight:bold;margin:30px 0;min-height:80px;}
 #argument.loading{color:#999;font-weight:normal}
 .controls{margin:20px 0;display:block;}
 .controls button{background:-webkit-linear-gradient(top, #fff, #eee);background:-moz-linear-gradient(top, #fff, #eee);background:-o-linear-gradient(top, #fff, #eee);background:-ms-linear-gradient(top, #fff, #eee);background:linear-gradient(to bottom, #fff, #eee);border:1px solid;border-color:#ddd #ccc #ccc #ddd;-webkit-border-radius:5px;border-radius:5px;cursor:pointer;font:16px/1.5 Roboto Slab,sans-serif;outline:none;padding:15px 50px;margin:0 10px;-webkit-transition:all 0.1s linear;-moz-transition:all 0.1s linear;-o-transition:all 0.1s linear;-ms-transition:all 0.1s linear;transition:all 0.1s linear;}
@@ -20,4 +21,5 @@ a:hover{color:#333 !important}
 .controls button:hover{opacity:1 !important;-ms-filter:none;filter:none}
 .controls button.tumblrize-grammar{padding:10px 30px;opacity:.4;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";filter:alpha(opacity=40)}
 #footer{padding:10px 0 0 0;text-align:center;}
-#footer a{color:#aaa}
+#footer a{color:#000 !important;opacity:.3;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";filter:alpha(opacity=30);}
+#footer a:hover{opacity:1 !important;-ms-filter:none;filter:none}
