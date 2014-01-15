@@ -8,17 +8,19 @@ a img{border:none}
 article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,main{margin:0;padding:0;border:0;outline:0;display:block}
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
 audio:not([controls]),[hidden]{display:none}
-body{background:#eee;-webkit-background-size:cover !important;-moz-background-size:cover !important;background-size:cover !important;color:#333;font:14px/1.5 Roboto Slab,sans-serif;text-shadow:0 1px 0 rgba(255,255,255,0.7)}
+body{background:#eee;-webkit-background-size:cover !important;-moz-background-size:cover !important;background-size:cover !important;color:#333;font:16px/1.5 Roboto Slab,sans-serif;text-shadow:0 1px 0 rgba(255,255,255,0.7)}
 a{color:#555;-webkit-transition:all 0.1s linear;-moz-transition:all 0.1s linear;-o-transition:all 0.1s linear;-ms-transition:all 0.1s linear;transition:all 0.1s linear;}
 a:hover{color:#333 !important}
 strong{font-weight:bold}
 #contents{margin:80px auto 20px auto;padding:20px;max-width:1000px;-webkit-border-radius:5px;border-radius:5px;background:rgba(255,255,255,0.9);-webkit-box-shadow:0 10px 40px rgba(0,0,0,0.5);box-shadow:0 10px 40px rgba(0,0,0,0.5);}
 #contents #title{text-transform:uppercase;font-size:38px;font-weight:bold;background:rgba(0,0,0,0.75);color:#fff;-webkit-border-radius:3px;border-radius:3px;padding:10px;text-shadow:0 1px 0 #000;text-align:center}
-#contents #sidebar{float:right;width:240px;background:rgba(0,0,0,0.2);margin:20px 0 20px 20px;padding:10px;-webkit-border-radius:3px;border-radius:3px;text-align:center;min-height:400px;}
-#contents #sidebar #about{font-weight:bold}
-#contents #sidebar #presentation{border-top:1px solid rgba(0,0,0,0.3);border-bottom:1px solid rgba(0,0,0,0.3);margin:10px 0;}
-#contents #sidebar #presentation li{margin:10px 0}
-#contents #argument{font-weight:bold;margin:20px 0;min-height:80px;text-align:left;font-size:18px;}
+#contents #sidebar{float:right;width:240px;background:#fff;margin:20px 0 20px 20px;padding:20px;border-left:1px solid #ccc;font-size:14px;}
+#contents #sidebar #username{font-weight:bold;background:rgba(0,0,0,0.5);-webkit-border-radius:3px;border-radius:3px;color:#fff;text-shadow:0 1px 0 rgba(0,0,0,0.5);padding:5px 0;margin:0 0 5px 0;text-align:center}
+#contents #sidebar #about{text-align:center;font-weight:bold}
+#contents #sidebar #presentation{border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:20px 0;}
+#contents #sidebar #presentation li{margin:20px 0}
+#contents #sidebar #copyright{margin:20px 0 0 0;color:#888}
+#contents #argument{font-weight:bold;margin:20px 0;min-height:80px;text-align:left;}
 #contents #argument .cite{font-weight:bold !important}
 #contents #argument blockquote{padding:0 0 0 35px;border-left:3px solid #ccc;margin:10px 0 20px 0}
 #contents #argument p{font-weight:normal}
