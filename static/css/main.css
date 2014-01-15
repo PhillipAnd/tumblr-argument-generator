@@ -27,7 +27,7 @@ strong{font-weight:bold}
 #contents #reblogs{color:#666;}
 #contents #reblogs li{margin:10px 0;}
 #contents #reblogs li p.insult{padding:0 0 0 15px;border-left:3px solid #ccc;margin:10px 0}
-#insult{display:none;position:absolute;top:60px;left:0;right:0;bottom:0;background:#eee;font-size:34px;font-weight:bold;}
+#insult{display:none;position:fixed;top:60px;left:0;right:0;bottom:0;background:#eee;font-size:34px;font-weight:bold;}
 #insult p{display:block;text-align:center;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 #controls{background:#fff;display:block;text-align:center;-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.5);box-shadow:0 5px 10px rgba(0,0,0,0.5);position:fixed;top:0;left:0;width:100%;z-index:10;height:60px;line-height:60px;}
 #controls:before,#controls:after{font-size:18px}
